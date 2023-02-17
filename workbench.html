@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workbench</title>
+  <style>
+.card{
+  height: 60%;
+  margin-top:20%;
+  margin-bottom:20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  min-width: 90%;
+  border-radius: 5%;
+  background-color: #eb1d1d;
+  box-shadow: 0px 0px 5px 0px;
+}
+.add-price{
+  display: flex;
+  position: relative;
+  top: 100%;
+  bottom: 0px;
+}
+.card input{
+  height: 30px;
+  color: black;
+  text-align: center;
+  min-width: 20%;
+  border-radius: 15px;
+  border-style: solid;
+  font-size: larger;
+  border-width: 3px;
+  box-shadow:inset 0px 0px 5px 0px;
+}
+.card input:active{
+  box-shadow: 0px 0px 5px 0px ;
+}
+.card a{
+  border:none;
+}
+.card a img{
+  width: 30px;
+}
+.screen{
+  height: 200px;
+  width: 150px;
+  display: flex;
+}
+  </style>
+</head>
+<body>
+  <div class="screen">
+    <div class="card">
+      <img src="" alt="">
+      <div class="add-price">
+        <input type="number" name="price" id="price" placeholder="Price">
+        <a id="add-btn" value="add"><img src="./icons/add (1).png" alt="" width="30px"></a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="" alt="">
+      <div class="add-price">
+        <input type="number" name="price" id="price" placeholder="Price">
+        <a id="add-btn" value="add"><img src="./icons/add (1).png" alt="" width="30px"></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
