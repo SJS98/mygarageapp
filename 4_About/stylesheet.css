@@ -33,10 +33,18 @@ body{
   }
 }
 
+h3{
+  position: relative;
+  z-index: 1;
+}
 h5{
+  position: relative;
+  z-index: 1;
   margin-top: 30px;
 }
 h6{
+  position: relative;
+  z-index: 1;
   margin-top: 20px;
 }
 .main-container{
@@ -47,17 +55,25 @@ h6{
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .green{
-  height: 400px;
-  width:400px;
-  margin-top: -900px;
-  margin-left: -200px;
+  position: absolute;
+  top: -70%;
+  left: -70% ;
+  right: 0px;
+  bottom: 70%;
   background-color: yellowgreen;
   border-radius: 200px;
 }
 .yellow{
+  position: absolute;
+  top: 70%;
+  left: 30% ;
+  right: 0px;
+  bottom: 70%;
   height: 400px;
   width:400px;
   background-color: rgb(255, 255, 80);
