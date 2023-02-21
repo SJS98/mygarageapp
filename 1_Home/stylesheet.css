@@ -5,7 +5,7 @@
 }
 body{
   background-color: rgb(215, 215, 215);
-  animation: smooth 1s ease;
+  animation: smooth .25s ease;
 }
 
 @keyframes smooth {

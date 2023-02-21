@@ -19,7 +19,7 @@ body{
   border-width: medium;
   overflow: hidden;
   z-index: 100;
-  animation: smooth 1s ease;
+  animation: smooth .25s ease;
 }
 
 @keyframes smooth {
