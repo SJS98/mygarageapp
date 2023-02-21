@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Make Bill</title>
+</head>
+<body>
+  <div class="main-container">
+    <nav class="region">
+      <a href="#looks">Looks</a>
+      <a href="#">Engine</a>
+      <a href="#">Spare</a>
+    </nav>
+
+    <div id="looks" class="looks">
+      <div class="items">
+        <div class="card">
+          <div class="img">
+            <img src="../3_Bill/Looks/Karizma-R-petrol-tank.jpg" alt="">
+            <div id="counter1"><p id="c1">0</p></div>
+          </div>
+          <div class="add-price">
+            <input type="number" name="price" id="price1" placeholder="Price">
+            <a id="add-btn" value="add" onclick="add(1)"><img src="./Icon/add_btn.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cart">
+        <p>Total</p>
+        <h2 id="val">0</h2>
+      </div>
+    </div>
+    <div  id="engine" class="Engine"></div>
+  </div>
+
+  <script src="./billscript.js"></script>
+</body>
+</html>
