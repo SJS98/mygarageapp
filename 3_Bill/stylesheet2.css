@@ -60,60 +60,6 @@ nav a:active{
   box-shadow:inset 0px 0px 5px -6px;
   overflow-x:auto;
 }
-.card{
-  height: 90%;
-  margin-top:10px;
-  margin-bottom:0;
-  display: block;
-  margin-left: 10px;
-  margin-right: 10px;
-  min-width: 90%;
-  border-radius: 5px;
-  border: none;
-  box-shadow: 4px 4px 12px -6px;
-  overflow: hidden;
-}
-.img{
-  height: 100%;
-  background-attachment: scroll;
-  background-repeat:no-repeat;
-  background-size: 100%;
-  overflow: hidden;
-}
-.add-price{
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 30px;
-}
-.card .add-price input{
-  height: 30px;
-  color: black;
-  text-align: center;
-  min-width: 20%;
-  border:none;
-  font-size: larger;
-  text-shadow: 1px 1px 1px;
-}
-.card a{
-  margin-left: 5%;
-  border:none;
-}
-.add-price img{
-  width: 30px;
-  margin:5%;
-}
-.add-price{
-  margin-left:5% ;
-  margin-right: 5%;
-  display: flex;
-  position: relative;
-  top: -40px;
-}
-
-
-
-
 
 .cart{
   height: 30%;

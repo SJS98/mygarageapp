@@ -5,7 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheet.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+
   <title>Make Bill</title>
+
 </head>
 <body>
   <div class="main-container">
@@ -15,28 +18,37 @@
       <a href="#">Spare</a>
     </nav>
 
-    <div id="looks" class="looks">
-      <div class="items">
-        <div class="card">
-          <div class="img">
-            <img src="../3_Bill/Looks/Karizma-R-petrol-tank.jpg" alt="">
-            <div id="counter1"><p id="c1">0</p></div>
-          </div>
-          <div class="add-price">
-            <input type="number" name="price" id="price1" placeholder="Price">
-            <a id="add-btn" value="add" onclick="add(1)"><img src="./Icon/add_btn.png" alt=""></a>
-          </div>
+    <div class="items">
+
+      <div class="card">
+        <div class="img" style="background-image: url(../3_Bill/Spare/spark\ plug.jpg);"></div>
+        
+        <div class="add-price">
+          <input type="number" min="0" name="quantity" id="quantity" placeholder="Qty">
+          <input type="number" name="price" id="price1" placeholder="Price">
+          <a id="add-btn" value="add" onclick="add(1)"><img src="./Icon/add_btn.png" alt="add"></a>
         </div>
       </div>
-      
-      <div class="cart">
-        <p>Total</p>
-        <h2 id="val">0</h2>
+      <div class="card">
+        <div class="img" style="background-image: url(../3_Bill/Spare/brake\ cable.jpg);"></div>
+        
+        <div class="add-price">
+          <input type="number" min="0" name="quantity" id="quantity" placeholder="Qty">
+          <input type="number" name="price" id="price1" placeholder="Price">
+          <a id="add-btn" value="add" onclick="add(2)"><img src="./Icon/add_btn.png" alt="add"></a>
+        </div>
       </div>
+    </div>
+    
+    <div class="cart">
+      <p>Total</p>
+      <h2 id="val">0</h2>
     </div>
     <div  id="engine" class="Engine"></div>
   </div>
 
   <script src="./billscript.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+
 </body>
 </html>
