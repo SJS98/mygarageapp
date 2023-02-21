@@ -1,5 +1,6 @@
 let total = 0 ;
 
+
 function add(x){
   let val = document.getElementById("price"+x).value ;
   total += parseInt(val) ; 

@@ -5,9 +5,12 @@
 }
 body{
   background-color: rgb(230, 230, 230);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 [class^="main"]{
-  position:fixed;
+  padding: 20px 30px 0px 30px;
+  position:absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -15,10 +18,9 @@ body{
   border-radius: 10px ;
   border-style: solid;
   border-color: black;
-  box-shadow:inset 0px 0px 5px 1px;
+  /* box-shadow:inset 0px 0px 5px 1px; */
   border-width: medium;
   overflow: hidden;
-  z-index: 100;
   animation: smooth .25s ease;
 }
 
@@ -31,110 +33,33 @@ body{
   }
 }
 
-nav a{
-  text-decoration: none;
-  font-size: 80%;
-  color: gray;
-  text-shadow: 0px 0px 1px black;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h5{
+  margin-top: 30px;
 }
-nav a:active{
-  background-color: white;
-  color: black;
-  border-radius: 10%;
+h6{
+  margin-top: 20px;
 }
-.region{
-  display:flex;
-  justify-content: space-evenly;
-  padding: 3%;
-  background-color: black;
-  box-shadow:0px 0px 5px 1px;
+.main-container{
+
 }
-.items{
-  display: flex;
-  padding-top:10 px;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 30%;  
-  box-shadow:inset 0px 0px 10px 1px;
-  overflow-x:auto;
-}
-.card{
-  height: 80%;
-  margin-top:20%;
-  margin-bottom:0;
-  margin-left: 5%;
-  margin-right: 5%;
-  min-width: 90%;
-  border-radius: 5%;
-  border-style: solid;
-  overflow: hidden;
-}
-.img{
-  height: 85%;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-}
-.img img{
-  margin-top:10% ;
-  border-radius: 5%;
-  box-shadow: 0px 0px 5px -3px;
-  height: 80%;
-}
-#counter1{
-  position: absolute;
-  top: 70%;
-  width: 50px;
-  border-radius: 10%;
-  background-color: white;
-  box-shadow: 0px 0px 5px -3px;
-  font-weight:bold;
-  font-size: larger;
-  text-align: center;
-}
-.card input{
-  height: 30px;
-  color: black;
-  text-align: center;
-  min-width: 20%;
-  border-radius: 15px;
-  border-style: solid;
-  font-size: larger;
-  border-width: 3px;
-  box-shadow:inset 0px 0px 5px 0px;
-}
-.card input:active{
-  box-shadow: 0px 0px 5px 0px ;
-}
-.card a{
-  margin-left: 5%;
-  border:none;
-}
-.card a img{
-  width: 30px;
-  margin:5%;
-}
-.add-price{
-  margin-left:5% ;
-  margin-right: 5%;
-  display: flex;
-  position: relative;
-  top: -5%;
+.main-container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
-
-
-
-
-.cart{
-  position: absolute;
-  top: 70%;
-  left: 0%;
-  right: 0%;
-  bottom: 0%;
-  background-color: #fff;
-  overflow: hidden;
+.green{
+  height: 400px;
+  width:400px;
+  margin-top: -900px;
+  margin-left: -200px;
+  background-color: yellowgreen;
+  border-radius: 200px;
+}
+.yellow{
+  height: 400px;
+  width:400px;
+  background-color: rgb(255, 255, 80);
+  border-radius: 200px;
 }
