@@ -52,7 +52,6 @@ nav a:active{
   background-color: black;
   box-shadow:0px 0px 5px 1px;
 }
-
 .items{
   display: flex;
   height: 65%;
@@ -113,10 +112,26 @@ nav a:active{
 
 
 
-
-
-.cart{
-  height: 30%;
-  background-color: #fff;
+.mcard{
+  height: 65px;
+  margin-bottom:10px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  min-width: 25%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 4px 4px 6px -6px;
   overflow: hidden;
+  background-color: greenyellow;
+}
+.mcard:hover{
+  opacity: 0.5;
+}
+.cart{
+  display: flex;
+  height: 65%;
+  padding: 5px;
+  box-shadow:inset 0px 0px 5px -6px;
+  overflow-x:auto;
 }
